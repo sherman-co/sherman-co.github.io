@@ -743,14 +743,13 @@ main {
   scroll-padding-inline: 25px;
 }
 
+.clients-list p {
+  color: orange;
+}
+
 .clients-item {
   min-width: 50%;
   scroll-snap-align: start;
-}
-
-.clients-item .p{
-  color: orange;
-  font-size: medium;
 }
 
 .clients-item img {

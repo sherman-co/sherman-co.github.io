@@ -76,15 +76,24 @@ for (let i = 0; i < selectItems.length; i++) {
 }
 
 // filter variables
+const filterItems = document.querySelectorAll("[data-filter-item]");
+
 const filterFunc = function (selectedValue) {
-  for (let i = 0; i < filterItems.length; i++) {
-    const itemCategory = filterItems[i].dataset.category.toLowerCase();
-    if (selectedValue === "all" || selectedValue === itemCategory) {
-      filterItems[i].classList.add("active");
-    } else {
-      filterItems[i].classList.remove("active");
-    }
-  }
+  for (let i = 0; i < filterBtn.length; i++) {
+
+  filterBtn[i].addEventListener("click", function () {
+
+    let selectedValue = this.innerText.toLowerCase();
+    
+    filterFunc(selectedValue);
+
+    lastClickedBtn.classList.remove("active");
+    this.classList.add("active");
+    lastClickedBtn = this;
+
+  });
+
+}
 }
 
 // add event in all filter button items for large screen

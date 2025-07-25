@@ -877,6 +877,41 @@ main {
 }
 
 
+/*-----------------------------------*\
+  #platforme
+\*-----------------------------------*/
+.skill-progress-digi {
+  background: red;
+  height: 100%;
+  border-radius: inherit;
+}
+
+.skill-progress-snapp {
+  background: rgb(173, 14, 126);
+  height: 100%;
+  border-radius: inherit;
+}
+
+.skill-progress-tapsi {
+  background: rgb(202, 94, 5);
+  height: 100%;
+  border-radius: inherit;
+}
+
+.skill-progress-Torob {
+  background: rgb(223, 10, 10);
+  height: 100%;
+  border-radius: inherit;
+}
+
+.skill-progress-Basalam {
+  background: rgb(180, 67, 2);
+  height: 100%;
+  border-radius: inherit;
+}
+
+
+
 
 
 

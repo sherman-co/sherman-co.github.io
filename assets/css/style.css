@@ -745,6 +745,11 @@ main {
 
 .clients-list p {
   color: orange;
+  font-size: larger;
+  margin: 5px;
+  background: wheat;
+  border: 4px;
+  border-radius: 6px;
 }
 
 .clients-item {
@@ -1478,13 +1483,13 @@ textarea.form-input::-webkit-resizer { display: none; }
   /* clients */
 
   .clients-list {
-    gap: 50px;
-    margin: 0 -30px;
-    padding: 45px;
-    scroll-padding-inline: 45px;
-  }
+        gap: 5px;
+        margin: 0 -30px;
+        padding: 40px;
+        scroll-padding-inline: 40px;
+    }
 
-  .clients-item { min-width: calc(33.33% - 35px); }
+  .clients-item { min-width: calc(28.33% - 35px); }
 
 
 

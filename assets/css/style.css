@@ -748,6 +748,11 @@ main {
   scroll-snap-align: start;
 }
 
+.clients-item .p{
+  color: orange;
+  font-size: medium;
+}
+
 .clients-item img {
   width: 100%;
   filter: grayscale(1);
